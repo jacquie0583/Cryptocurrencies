@@ -80,7 +80,7 @@ PCA is statistical technique to sped up machine learning algorithms when the num
 Explained Variance Ration tells us how much information can be attributed to each principal component: for example the first principal component contains 72.77% of the variance and the second contains 23.03%. Together, they contain 95.80% of the information.
 
 ## Results:
-Image 12
+
 
 <p align="center">
   <img width="600" height="300" src="https://github.com/jacquie0583/Cryptocurrencies/blob/main/Graphics/image%2012.jpg">
@@ -88,7 +88,7 @@ Image 12
 
 
 Cluster DataFrame looks like the image below:
-Image 2
+
 
 <p align="center">
   <img width="600" height="300" src="https://github.com/jacquie0583/Cryptocurrencies/blob/main/Graphics/image%202.jpg">
@@ -109,19 +109,20 @@ use the MinMaxScaler().fit_transform method to scale the "TotalCoinSupply" and "
 Using the dataset and analysis we found that 4 clusters is the initial point.
 By running an analysis using K=4 and applying the K-means algorithm, got the below results:
 
+
 <p align="center">
   <img width="600" height="300" src="https://github.com/jacquie0583/Cryptocurrencies/blob/main/Graphics/image%2016.png">
 </p
 
-
- 
+  
+  
 ## Step 4: Visualizing Cryptocurrencies Results and Interpretation
- 
-•	Visualizing the clusters helps to graphically understand how they are arranged.
 
-• 3D graph and PCA visualization for 3D visualization we used 3D scatter plot with Plotly Express. Three principal components (on x, y, and z             axis), that were created with PCA algorithm are plotted on the graph. These 3 components contains most of the information in the original large         data set. As we can see the form of the graph, cryptocurrency is clustered in 4 groups with similar characteristics. When we hover over the             specific element the graph shows label with Coin Name and its Algorithm.
+  •	Visualizing the clusters helps to graphically understand how they are arranged.
 
-• 2D visualization and correlation between Total Coins Supply and Total Coins Mined For 2D visualization I used hvPlot, a graphing library that          allows deeper exploration of the data. This graph has Total Coins Supply on y-axis and Total Coins Mined on x-axis. From the graph we can see          correlation between those two components. Different colors indicate different classes that crypto coins belong to. When we hover over the              specific element the graph shows labels with Coin Name and its Class.
+  • 3D graph and PCA visualization for 3D visualization we used 3D scatter plot with Plotly Express. Three principal components (on x, y, and z axis), that were created with       PCA algorithm are plotted on the graph. These 3 components contains most of the information in the original large data set. As we can see the form of the graph,                 cryptocurrency is clustered in 4 groups with similar characteristics. When we hover over the specific element the graph shows label with Coin Name and its Algorithm.
+
+  • 2D visualization and correlation between Total Coins Supply and Total Coins Mined For 2D visualization I used hvPlot, a graphing library that allows deeper exploration of       the data. This graph has Total Coins Supply on y-axis and Total Coins Mined on x-axis. From the graph we can see correlation between those two components. Different colors     indicate different classes that crypto coins belong to. When we hover over the specific element the graph shows labels with Coin Name and its Class.
  
  
 ## Results:
